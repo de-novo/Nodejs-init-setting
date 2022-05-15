@@ -4,6 +4,8 @@ import cors from "cors";
 import compression from "compression";
 import methodOverride from "method-override";
 
+import routes from "../src/app/index.js";
+
 export default (app) => {
     app.use(compression());
 
